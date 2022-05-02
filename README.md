@@ -18,19 +18,18 @@ echo mkdir /home/vagrant/.ssh/
      sudo chown -R vagrant /home/vagrant/.ssh
      sudo chmod -R go-rwsx /home/vagrant/.ssh
      
-### A Intenção era subir Kubernetes com ansible para chamar as playbook, porém a escolha de usar vagrant me tomou muito tempo para conseguir entender 
-as trocas de chaves.
+### A Intenção era subir Kubernetes com ansible para chamar as playbook, porém a escolha de usar vagrant me tomou muito tempo para conseguir entender as trocas de chaves.
 
 ### A estrutura que seria provissionda seria:
 
-Infra:
-Kubernetes k8s com Virtual e vagrant
+## Infra:
+- Kubernetes k8s com Virtual e vagrant
 
 ### Monitoramentos:
-Prometheus 
-Alertmanager
-Grafana
-Thanos (Opcional)
+- Prometheus 
+- Alertmanager
+- Grafana
+- Thanos (Opcional)
 
 ### APM:
 Kibana stack
@@ -40,14 +39,14 @@ Kibana stack
  - Beats
  
 ### Repositorio:
-Gitalab
+- Gitalab
  
 
 ### CI/CD:
-jenkins
-sonarqube
-nexus
-postman
-Newman html extra
+- jenkins devops
+- sonarqube
+- nexus
+- postman
+- Newman html extra
 
 
