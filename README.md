@@ -1,6 +1,6 @@
 # poc-devops-Kubernetes
 
-### Coomandos:
+### Comandos:
 vagrant up ; vagrant vbguest --do install --no-cleanup ; vagrant ssh -c 'yes | sudo /mnt/VBoxLinuxAdditions.run'
 
 ####################################
